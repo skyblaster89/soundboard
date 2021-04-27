@@ -37,7 +37,7 @@ function smack(){
     var spraysound = new Audio('https://www.soundjay.com/bathroom/sounds/deodorant-spray-2.mp3');
     spraysound.play();
   }
-  else if(event,keycode == 97){
+  else if(event.keycode == 97){
     var laughsound = document.getElementById("laugh");
     laughsound.play();
   }

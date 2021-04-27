@@ -15,8 +15,7 @@ function spray() {
   spraysound.play();  
   }
 function laugh() {
-  var laughsound = document.getElementById("laugh");
-  laughsound.play();
+  document.getElementById("laugh").play();
 }
 
 document.addEventListener('keydown', smack);

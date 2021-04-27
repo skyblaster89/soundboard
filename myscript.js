@@ -40,5 +40,6 @@ function smack(){
   else if(event.keycode == 97){
     var laughsound = document.getElementById("laugh");
     laughsound.play();
+    alert("You super stink");
   }
 }

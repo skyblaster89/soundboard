@@ -37,7 +37,7 @@ function smack(){
     spraysound.play();
   }
   else if(event.keycode == 76){
-    var element = document.querySelector('demoman_laugh (1).mp3');
+    var element = document.querySelector('laugh');
 element.click();
   }
 }

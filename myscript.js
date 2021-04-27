@@ -15,7 +15,7 @@ function spray() {
   spraysound.play();  
   }
 function laugh() {
-  var laughsound = new Audio('https://www.zedge.net/ringtone/f305c61f-96cf-4998-8e35-834750fa52fb');
+  var laughsound = document.getElementById("laugh");
   laughsound.play();
 }
 

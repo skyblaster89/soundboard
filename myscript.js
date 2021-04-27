@@ -37,7 +37,7 @@ function smack(){
     spraysound.play();
   }
   else if(event.keycode == 76){
-    document.getElementById("laugh").play();
-    alert("You super stink");
+    var element = document.querySelector('demoman_laugh (1).mp3');
+element.click();
   }
 }

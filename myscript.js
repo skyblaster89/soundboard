@@ -38,8 +38,7 @@ function smack(){
     spraysound.play();
   }
   else if(event.keycode == 76){
-    var laughsound = document.getElementById("laugh");
-    laughsound.play();
+    document.getElementById("laugh").play();
     alert("You super stink");
   }
 }

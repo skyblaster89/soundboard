@@ -1,6 +1,6 @@
 function smack1() {
-  var smack1sound = new Audio('https://www.soundjay.com/mechanical/sounds/smack-1.mp3'); 
-  smack1sound.play();
+  var smacksound = new Audio('https://www.soundjay.com/mechanical/sounds/smack-1.mp3'); 
+  smacksound.play();
   }
 function clonk() {
   var clonksound = new Audio('https://www.soundjay.com/mechanical/sounds/mechanical-clonk-1.mp3');
